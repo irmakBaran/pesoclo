@@ -1,0 +1,531 @@
+/*!***********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/langify/styles/switcher.css ***!
+  \***********************************************************************************/
+
+.ly-switcher-wrapper {
+}
+.ly-switcher-wrapper.fixed {
+  position: fixed;
+  z-index: 1000;
+}
+.ly-switcher-wrapper.absolute {
+  position: absolute;
+  z-index: 1000;
+}
+.ly-switcher-wrapper.fixed.top_left,
+.ly-switcher-wrapper.absolute.top_left {
+  top: 0;
+  left: 0;
+}
+.ly-switcher-wrapper.fixed.top_right,
+.ly-switcher-wrapper.absolute.top_right {
+  top: 0;
+  right: 0;
+}
+.ly-switcher-wrapper.fixed.bottom_left,
+.ly-switcher-wrapper.absolute.bottom_left {
+  bottom: 0;
+  left: 0;
+}
+.ly-switcher-wrapper.fixed.bottom_right,
+.ly-switcher-wrapper.absolute.bottom_right {
+  bottom: 0;
+  right: 0;
+}
+.ly-switcher-wrapper .shopify-currency-form {
+  display: inline-block;
+}
+
+.ly-currency-switcher {
+  font-size: 1em;
+}
+
+.ly-inner-text {
+  margin: 0 0.2em;
+  white-space: nowrap;
+}
+
+.ly-flag-icon {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 1.33333333em;
+  line-height: 1em;
+}
+.ly-flag-icon:before {
+  content: "";
+  display: inline-block;
+}
+.ly-flag-icon.ly-flag-squared {
+  width: 1em;
+}
+.ly-flag-icon.ly-flag-rounded {
+  width: 1em;
+  border-radius: 50%;
+}
+.ly-languages-switcher {
+  white-space: nowrap;
+  list-style-type: none;
+  display: flex;
+  font-size: 1em;
+}
+.ly-languages-switcher-link {
+  margin: 0 0.2em;
+  cursor: pointer;
+  white-space: nowrap;
+  text-decoration: none;
+  display: inline-block;
+}
+.ly-languages-switcher.ly-list {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+.ly-languages-switcher.ly-native-select {
+}
+.ly-icon {
+  margin: 0 0.2em;
+}
+
+.ly-arrow {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  direction: ltr !important;
+  -webkit-transition: transform 0.25s;
+  -moz-transition: transform 0.25s;
+  transition: transform 0.25s;
+  margin: 0 0.2em;
+}
+.ly-custom-dropdown-switcher.ly-is-open .ly-arrow {
+  transform: rotate(180deg);
+}
+.ly-custom-dropdown-switcher.ly-arrow.ly-arrow-up {
+  transform: rotate(180deg);
+}
+.ly-custom-dropdown-switcher.ly-is-open .ly-arrow.ly-arrow-up {
+  transform: rotate(0deg);
+}
+
+.ly-custom-dropdown-switcher {
+  text-align: left;
+  display: inline-block;
+  position: relative;
+  user-select: none;
+  cursor: pointer;
+}
+.ly-custom-dropdown-current {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+.ly-custom-dropdown-current-inner {
+  display: inline-block;
+  vertical-align: middle;
+  flex: 1;
+}
+.ly-custom-dropdown-current-inner-image {
+  margin-right: 0.25em;
+}
+.ly-custom-dropdown-current-inner-text {
+  margin: 0 0.2em;
+}
+.ly-custom-dropdown-list {
+  display: none !important;
+  list-style: none;
+  position: absolute;
+  left: 0;
+  padding: inherit !important;
+  padding: 0 !important;
+  margin: 0;
+  z-index: 99999;
+  text-align: left;
+  width: 100%;
+  height: auto !important;
+  font-size: 1em;
+}
+.ly-custom-dropdown-list-element {
+  color: inherit !important;
+  display: block;
+}
+.ly-custom-dropdown-list-element:dir(rtl) {
+  text-align: right;
+}
+.ly-custom-dropdown-list > li {
+  margin: 0 !important;
+  display: block;
+}
+.ly-custom-dropdown-list-element-left {
+  margin-right: 0.5em;
+}
+.ly-custom-dropdown-list-element-right {
+  text-align: left;
+  margin: 0 0.2em;
+}
+.ly-custom-dropdown-list-element-left,
+.ly-custom-dropdown-list-element-right {
+  vertical-align: middle;
+}
+.ly-custom-dropdown-switcher .ly-languages-switcher-link {
+  margin: 0;
+}
+.ly-languages-switcher-dropdown {
+  display: inline-block;
+}
+.ly-languages-links-switcher {
+  display: inline-block;
+}
+.ly-languages-links-switcher > .ly-languages-link {
+  /*margin-right: 0.5em;*/
+  padding: inherit !important;
+  color: inherit !important;
+}
+.ly-custom-dropdown-list-element {
+  /*padding: inherit !important;*/
+  text-decoration: none;
+}
+.ly-is-uppercase {
+  text-transform: uppercase;
+}
+.ly-is-transparent.ly-links,
+.ly-is-transparent.ly-list,
+.ly-is-transparent.ly-currency-switcher,
+.ly-is-transparent.ly-custom-dropdown-switcher,
+.ly-is-transparent.ly-custom-dropdown-switcher .ly-custom-dropdown-list {
+  background: transparent !important;
+}
+.ly-arrow-up {
+  transform: rotateZ(180deg);
+}
+
+.ly-custom-dropdown-switcher .ly-custom-dropdown-list li.current {
+  display: none;
+}
+.ly-custom-dropdown-switcher.ly-is-open .ly-custom-dropdown-list {
+  display: flex !important;
+  min-width: 100%;
+  width: 100%;
+  flex-direction: column;
+  right: 0;
+  left: auto;
+  max-height: 350px;
+  max-height: 50vh;
+  overflow: auto;
+}
+.ly-custom-dropdown-switcher.ly-is-open .ly-custom-dropdown-list:hover {
+  /*overflow: auto;*/
+}
+
+.ly-is-dropup .ly-custom-dropdown-list {
+  bottom: 100%;
+}
+.ly-hide {
+  display: none !important;
+}
+body.ly-force-off #preview-bar-iframe,
+body.ly-force-off .ly-languages-switcher {
+  display: none !important;
+}
+
+.ly-close {
+  position: absolute;
+  opacity: 0.3;
+  right: 0;
+  top: 0;
+  width: 3em;
+  height: 3em;
+  display: inline-block !important;
+  background: rbga(0, 0, 0, 0);
+  padding: 1em;
+}
+.ly-close:hover {
+  opacity: 1;
+}
+.ly-close .inner {
+  transform: translateX(-50%);
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+.ly-close .inner:before,
+.ly-close .inner:after {
+  position: absolute;
+  left: 1em;
+  content: " ";
+  height: 1em;
+  width: 2px;
+  background-color: #333;
+}
+.ly-close .inner:before {
+  transform: rotate(45deg);
+}
+.ly-close .inner:after {
+  transform: rotate(-45deg);
+}
+
+.ly-country-switcher .ly-text-input {
+  width: 100%;
+  border-radius: 0;
+  border-width: 1px;
+  user-select: none;
+  outline: none;
+}
+.ly-country-switcher .ly-custom-dropdown-list {
+  height: 50vh;
+}
+.ly-country-switcher.ly-is-dropup .ly-custom-dropdown-list {
+}
+.ly-filter-container {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: inherit;
+}
+.ly-country-switcher.ly-is-dropup .ly-filter-container {
+}
+
+.ly-popup-switcher {
+}
+.ly-popup-switcher h3 {
+  margin: 1rem 0 0.5rem 0;
+}
+.ly-popup-switcher .ly-popup-current {
+  cursor: pointer;
+  background: transparent;
+  display: flex;
+  align-items: center;
+}
+.ly-popup-switcher .ly-popup-modal {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.ly-popup-switcher.ly-is-open .ly-popup-modal {
+  display: flex;
+}
+.ly-popup-switcher .ly-popup-modal-backdrop {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.38);
+  cursor: pointer;
+}
+.ly-popup-switcher .ly-popup-modal .ly-popup-modal-content {
+  padding: 1em;
+  position: absolute;
+  z-index: 1000;
+  min-width: 325px;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+}
+.ly-popup-switcher .ly-popup-modal .ly-popup-modal-content .ly-list ul {
+  padding: 0;
+  margin: 12px 0 0 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.ly-popup-switcher
+  .ly-popup-modal
+  .ly-popup-modal-content
+  .ly-list
+  ul
+  .ly-languages-switcher-link {
+  margin: 0;
+  border: solid 1px;
+  padding: 1em;
+  display: block;
+  min-width: 325px;
+  margin-top: 1em;
+}
+.ly-popup-switcher
+  .ly-popup-modal
+  .ly-popup-modal-content
+  ul
+  .ly-languages-switcher-link.current_lang {
+  display: none;
+}
+
+.ly-popup-switcher .ly-custom-dropdown-switcher {
+  width: 100%;
+}
+.ly-popup-switcher .ly-custom-dropdown-current {
+  border-width: 1px !important;
+}
+
+.ly-world-icon {
+  display: flex;
+  align-items: center;
+}
+.ly-world-icon svg {
+  width: 100%;
+}
+
+/*!*****************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/langify/styles/recommendation.css ***!
+  \*****************************************************************************************/
+
+/* Recommendation */
+.ly-recommendation {
+  display: none;
+}
+.ly-recommendation.ly-is-open {
+  display: inline-block;
+}
+.ly-recommendation form {
+  display: inline-block;
+}
+.ly-recommendation .ly-arrow,
+.ly-arrow.recommendation {
+  display: none;
+}
+.ly-recommendation .ly-arrow.recommendation {
+  display: inline-block;
+}
+.ly-recommendation .ly-switcher-wrapper {
+  font-size: 1em !important;
+}
+.ly-recommendation
+  .ly-popup-modal
+  .ly-popup-switcher
+  .ly-popup-modal
+  .ly-popup-modal-backdrop {
+  display: none;
+}
+.ly-recommendation-form button[type="submit"] {
+  cursor: pointer;
+}
+
+/* Recommendation Banner */
+.ly-recommendation .ly-banner {
+  position: fixed;
+  z-index: 100000;
+  width: 100%;
+}
+.ly-recommendation .ly-banner .ly-banner-content {
+  width: 100%;
+  padding: 1em 30px 1em 1em;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+.ly-recommendation .ly-banner.top {
+  top: 0;
+}
+.ly-recommendation .ly-banner.bottom {
+  bottom: 0;
+}
+.ly-recommendation .ly-banner .ly-banner-content .ly-switcher-wrapper {
+  position: relative !important;
+  margin: 0 !important;
+  display: inline-block !important;
+}
+.ly-recommendation .ly-banner .ly-recommendation-form button[type="submit"] {
+  margin-left: 10px;
+}
+
+/* Recommendation Popup */
+.ly-recommendation .ly-popup-modal {
+  position: fixed;
+  z-index: 10000;
+}
+.ly-recommendation .ly-popup-modal .ly-switcher-wrapper {
+  position: relative !important;
+  margin: 0 !important;
+  display: inline-block !important;
+}
+.ly-recommendation .ly-popup-modal-backdrop {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.38);
+}
+.ly-recommendation .ly-popup-modal .ly-popup-modal-content {
+  padding: 1em 30px 1em 1em;
+}
+.ly-recommendation
+  .ly-popup-modal
+  .ly-popup-modal-content
+  .ly-languages-switcher {
+  position: relative !important;
+  margin: 0 !important;
+}
+.ly-recommendation .ly-popup-modal .ly-popup-modal-content h3 {
+  margin: 0 2em 1em 0;
+  font-size: inherit;
+  position: relative;
+}
+.ly-recommendation .ly-popup-modal.top_left {
+  top: 0;
+  left: 0;
+  margin-right: 0 !important;
+  margin-bottom: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 0 !important;
+}
+.ly-recommendation .ly-popup-modal.top_center {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-right: 0 !important;
+  margin-bottom: 0 !important;
+  margin-left: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 0 !important;
+  padding-left: 0 !important;
+}
+.ly-recommendation .ly-popup-modal.top_right {
+  top: 0;
+  right: 0;
+  margin-left: 0 !important;
+  margin-bottom: 0 !important;
+  padding-left: 0 !important;
+  padding-bottom: 0 !important;
+}
+.ly-recommendation .ly-popup-modal.center_center {
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.ly-recommendation .ly-popup-modal.bottom_left {
+  bottom: 0;
+  left: 0;
+  margin-right: 0 !important;
+  margin-top: 0 !important;
+  padding-right: 0 !important;
+  padding-top: 0 !important;
+}
+.ly-recommendation .ly-popup-modal.bottom_center {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  margin-top: 0 !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  padding-top: 0 !important;
+}
+.ly-recommendation .ly-popup-modal.bottom_right {
+  bottom: 0;
+  right: 0;
+  margin-left: 0 !important;
+  margin-top: 0 !important;
+  padding-left: 0 !important;
+  padding-top: 0 !important;
+}

@@ -1,0 +1,30 @@
+:root {
+  --swiper-theme-color: #007aff;
+}
+.swiper-wrapper {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  z-index: 1;
+}
+.swiper-slide,
+.swiper-wrapper {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+.swiper-slide {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+:root {
+  --swiper-navigation-size: 44px;
+}
+#index-swiper.swiper {
+  height: 100%;
+  width: 100%;
+}
